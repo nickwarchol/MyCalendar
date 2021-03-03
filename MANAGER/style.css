@@ -1,0 +1,98 @@
+h1{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    border: 1px solid black;
+    height: 10vh;
+    background-image: url(8000a53ee1c740b5db39e744525f9df2--twitter-header-quotes-twitter-layouts.jpg);
+    background-size:contain;
+    background-repeat:unset;
+    margin-bottom: 20px;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: fixed;
+}
+
+#list{
+    flex: 2;
+    font-style: italic;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: black;
+    text-align: center;
+    /* flex is fractions, if i did this 3 it would be bigger then .blue */
+    background-color: #fafafa;
+    padding: 20px;
+    box-shadow: -1px 0 10px rgb(112,112,112);
+    background-image: url(4k-empire-state-building-morning-new-york-skyscrapers.jpg);
+    background-size:cover;
+    border-radius: 6px;
+}
+#list h3{
+    text-shadow: 0 1px 1px #333;
+    color: black;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#capture{
+    flex: 1; /* flex is fractions, if i did this 3 it would be bigger then .blue */
+    background-color: #fafafa;
+    padding: 20px;
+    box-shadow: -1px 0 10px rgb(112,112,112);
+    border-radius: 6px;
+}
+.control {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 5px;
+}
+.control label{
+    font-size: 14px;
+    color: #a0a0a0;
+}
+.control input {
+    font-size: 18px;
+}
+#iImportant {
+    font-size: 30px;
+}
+#iImportant.fa-star {
+    color: red;
+}
+
+.container-fluid {
+    height:100%;
+    padding: 0;
+
+}
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.container-fluid{
+    height: 100%;
+    padding-right: 0;
+}
+.content{
+    display: flex;
+    height: 100%;
+}
+h3{
+    color: #45838f;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    height: 100%;
+}
